@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif,'Luckiest Guy','Righteous','Fredoka One';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,62 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 80px auto;
+  width: 50%;
+}
+.board{
+  text-align: center;
+  margin: auto;
+}
+.board-row{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  height:120px;
+  width:120px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.board-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.container{
+  text-align: center;
+  margin: auto 25px;
+  height: 200px;  
+  background-color: #00E5EE;
+  width: 80%;
+  padding: 10px 0;
+}
+.wrapper{
+  text-align: center;  
+  padding: 10px 0;
+}
+.options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playerX,.playerO{
+  height:120px;
+  width:120px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px 20px;
+}
+.fontValue{
+  font-size: 40px;
 }
